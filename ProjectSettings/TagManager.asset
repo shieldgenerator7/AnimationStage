@@ -13,7 +13,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - _Guide
   - 
   - 
   - 
@@ -38,9 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3908931657
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: ShieldFlux
     uniqueID: 585904489
+    locked: 0
+  - name: _Guides
+    uniqueID: 1739947273
     locked: 0
