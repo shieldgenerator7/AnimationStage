@@ -901,6 +901,8 @@ PlayableDirector:
     value: {fileID: 529916678}
   - key: {fileID: -5444546551072561169, guid: 2825925e6ae3d8f46abaa327ee7f8eae, type: 2}
     value: {fileID: 768014568}
+  - key: {fileID: 698797558928081394, guid: 2825925e6ae3d8f46abaa327ee7f8eae, type: 2}
+    value: {fileID: 2020892652}
   m_ExposedReferences:
     m_References: []
 --- !u!95 &529916678
@@ -1616,8 +1618,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 903272705}
-  - {fileID: 1317974346}
-  - {fileID: 1464576807}
+  - {fileID: 2020892653}
   m_Father: {fileID: 529916676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1290492292
@@ -1872,11 +1873,11 @@ Transform:
   m_GameObject: {fileID: 1317974345}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0765, y: 0.06585, z: 0}
+  m_LocalPosition: {x: 0.0335, y: 0.010849997, z: 0}
   m_LocalScale: {x: 0.04919092, y: 0.032520916, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1290492291}
+  m_Father: {fileID: 2020892653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1317974347
 SpriteRenderer:
@@ -2040,11 +2041,11 @@ Transform:
   m_GameObject: {fileID: 1464576806}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.05448662, w: -0.99851453}
-  m_LocalPosition: {x: -0.11984, y: 0.06743, z: 0}
+  m_LocalPosition: {x: -0.009839997, y: 0.012429997, z: 0}
   m_LocalScale: {x: 0.01813767, y: 0.02037527, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1290492291}
+  m_Father: {fileID: 2020892653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.247}
 --- !u!212 &1464576808
 SpriteRenderer:
@@ -2273,6 +2274,62 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2020892651
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020892653}
+  - component: {fileID: 2020892652}
+  m_Layer: 0
+  m_Name: eyelid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &2020892652
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020892651}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &2020892653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020892651}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.11, y: 0.055, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1317974346}
+  - {fileID: 1464576807}
+  m_Father: {fileID: 1290492291}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
