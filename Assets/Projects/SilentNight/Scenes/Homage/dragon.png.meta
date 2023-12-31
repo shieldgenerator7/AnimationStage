@@ -109,12 +109,12 @@ TextureImporter:
       name: dragon_0
       rect:
         serializedVersion: 2
-        x: 27
-        y: 172
-        width: 153
-        height: 268
+        x: 155
+        y: 218
+        width: 151
+        height: 266
       alignment: 9
-      pivot: {x: 0.46696797, y: 0.9195855}
+      pivot: {x: 0.4716982, y: 0.9223082}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -130,12 +130,12 @@ TextureImporter:
       name: dragon_1
       rect:
         serializedVersion: 2
-        x: 28
-        y: 34
-        width: 284
-        height: 149
-      alignment: 9
-      pivot: {x: 0.068462424, y: 0.525439}
+        x: 374
+        y: 82
+        width: 360
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -151,12 +151,12 @@ TextureImporter:
       name: dragon_2
       rect:
         serializedVersion: 2
-        x: 185
-        y: 103
-        width: 362
-        height: 565
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 24
+        y: 31
+        width: 282
+        height: 147
+      alignment: 9
+      pivot: {x: 0.09515774, y: 0.59136903}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
