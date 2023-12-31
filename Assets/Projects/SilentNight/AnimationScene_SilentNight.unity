@@ -14596,7 +14596,15 @@ PlayableDirector:
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 6735767259630720231, guid: 5f8416271b393014aa472d8fc8f459a8, type: 2}
+    value: {fileID: 661302880}
+  - key: {fileID: -5613281905244390558, guid: 5f8416271b393014aa472d8fc8f459a8, type: 2}
+    value: {fileID: 1021909458}
+  - key: {fileID: -7191679389442335895, guid: 5f8416271b393014aa472d8fc8f459a8, type: 2}
+    value: {fileID: 658209967}
+  - key: {fileID: -8295373401241308516, guid: 5f8416271b393014aa472d8fc8f459a8, type: 2}
+    value: {fileID: 1399336680}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &581190190
@@ -16891,6 +16899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658209965}
   - component: {fileID: 658209966}
+  - component: {fileID: 658209967}
   m_Layer: 0
   m_Name: lightning_static
   m_TagString: Untagged
@@ -16906,7 +16915,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658209964}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.41, y: -0.005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16967,6 +16976,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &658209967
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658209964}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &661302877
 GameObject:
   m_ObjectHideFlags: 0
@@ -16977,6 +17008,7 @@ GameObject:
   m_Component:
   - component: {fileID: 661302878}
   - component: {fileID: 661302879}
+  - component: {fileID: 661302880}
   m_Layer: 0
   m_Name: magic1
   m_TagString: Untagged
@@ -17053,6 +17085,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &661302880
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661302877}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &672822572
 GameObject:
   m_ObjectHideFlags: 0
@@ -25027,6 +25081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1021909456}
   - component: {fileID: 1021909457}
+  - component: {fileID: 1021909458}
   m_Layer: 0
   m_Name: lightning_beam
   m_TagString: Untagged
@@ -25048,7 +25103,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 47571043}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.918}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 359.9315}
 --- !u!212 &1021909457
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25103,6 +25158,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1021909458
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021909455}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1022928589
 GameObject:
   m_ObjectHideFlags: 0
@@ -35696,6 +35773,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1399336678}
   - component: {fileID: 1399336679}
+  - component: {fileID: 1399336680}
   m_Layer: 0
   m_Name: lightning_glow
   m_TagString: Untagged
@@ -35762,7 +35840,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 39c19cf4a8a7e8c478cc30f8f9f08bf9, type: 3}
-  m_Color: {r: 0.60784316, g: 0.8862746, b: 1, a: 0.23921569}
+  m_Color: {r: 0.6078432, g: 0.8862746, b: 1, a: 0.2392157}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -35772,6 +35850,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1399336680
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399336677}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1405167384
 GameObject:
   m_ObjectHideFlags: 0
