@@ -15,7 +15,7 @@ public class NumberChanger : MonoBehaviour
     public List<StalkSwayer> swayers;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         if (swayers.Count == 0)
         {

@@ -215,6 +215,8 @@ GameObject:
   m_Component:
   - component: {fileID: 65824095}
   - component: {fileID: 65824096}
+  - component: {fileID: 65824098}
+  - component: {fileID: 65824097}
   m_Layer: 0
   m_Name: Wheat
   m_TagString: Untagged
@@ -231,7 +233,7 @@ Transform:
   m_GameObject: {fileID: 65824094}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.22, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -251,12 +253,73 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f6aefe9b78c33d4081818f2ce53e83d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  num1: 4
-  num2: 5.7
-  loopDuration: 0.47
-  swayers:
-  - {fileID: 1675178176}
-  - {fileID: 1515275426}
+  num1: 7
+  num2: 8
+  loopDuration: 0.3
+  swayers: []
+--- !u!61 &65824097
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65824094}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.06292117, y: -0.49202344}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 3.427903, y: 0.40101498}
+  m_EdgeRadius: 0
+--- !u!114 &65824098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65824094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a1fafe7888cd7343bbfb46e048ffd69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rowCount: 5
+  columnCount: 20
+  columnOffset: -0.07
+  prefab: {fileID: 7703894202226300870, guid: de2c953734da714409b3ac0beff85050, type: 3}
+  bc2d: {fileID: 65824097}
 --- !u!1 &67926111
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,6 +3183,10 @@ PrefabInstance:
     - target: {fileID: 7703894202226300870, guid: de2c953734da714409b3ac0beff85050, type: 3}
       propertyPath: m_Name
       value: wheat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703894202226300870, guid: de2c953734da714409b3ac0beff85050, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10661,17 +10728,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1515275426 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5740385992983775470, guid: de2c953734da714409b3ac0beff85050, type: 3}
-  m_PrefabInstance: {fileID: 585691852}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1515275423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 080063bdba007754780e0cc5277fff5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1526061993
 GameObject:
   m_ObjectHideFlags: 0
@@ -11366,17 +11422,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1690727849107334304, guid: de2c953734da714409b3ac0beff85050, type: 3}
   m_PrefabInstance: {fileID: 9005696013300905358}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1675178176 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5740385992983775470, guid: de2c953734da714409b3ac0beff85050, type: 3}
-  m_PrefabInstance: {fileID: 9005696013300905358}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675178174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 080063bdba007754780e0cc5277fff5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!95 &1675178177
 Animator:
   serializedVersion: 7
@@ -15060,18 +15105,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 65824095}
     m_Modifications:
     - target: {fileID: 1690727849107334304, guid: de2c953734da714409b3ac0beff85050, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1690727849107334304, guid: de2c953734da714409b3ac0beff85050, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1690727849107334304, guid: de2c953734da714409b3ac0beff85050, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1690727849107334304, guid: de2c953734da714409b3ac0beff85050, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.861
       objectReference: {fileID: 0}
@@ -15111,13 +15144,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1690727849107334304, guid: de2c953734da714409b3ac0beff85050, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7703894202226300870, guid: de2c953734da714409b3ac0beff85050, type: 3}
       propertyPath: m_Name
       value: wheat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7703894202226300870, guid: de2c953734da714409b3ac0beff85050, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
