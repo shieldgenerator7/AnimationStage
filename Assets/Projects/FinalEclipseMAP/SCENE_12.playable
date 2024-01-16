@@ -56,7 +56,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 1
+  m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
@@ -66,7 +66,7 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 7081294165765712634}
-    m_Duration: 15
+    m_Duration: 6.999999999999
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7258582694038610636}
     m_EaseInDuration: 0
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_Name: RecorderClip
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 3
+  take: 4
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -573,7 +573,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: SCENE_Intro_<Take>
+    m_FileName: SCENE_FinalEclipse_p12
   m_Version: 1
   encoderSettings:
     rid: 5021234332266921986
