@@ -26,6 +26,7 @@ public class StalkSwayer : MonoBehaviour
         }
         prevSway = sway;
         Vector3 dirPos = stalks[0].transform.position;
+        float scaleY = transform.localScale.y;
         for (int i = 0; i < stalks.Count; i++)
         {
             GameObject stalk = stalks[i];
@@ -37,7 +38,9 @@ public class StalkSwayer : MonoBehaviour
             stalk.transform.eulerAngles = euler;
             //
             dirPos = stalk.transform.position
-                + stalk.transform.TransformDirection(Vector2.up * stalkLength);
+                + stalk.transform.TransformDirection(
+                    Vector2.up * stalkLength * scaleY
+                    );
         }
     }
 }
