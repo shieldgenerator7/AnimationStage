@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 27a4a36166cf66941b66e35d0f8aec3b
+guid: 416780e1705201e43b683909ff31931f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6822358336320463548
-    second: SM002_0
+      213: -6065548378544867286
+    second: 1PEyes_0
+  - first:
+      213: -3502134790515572285
+    second: 1PEyes_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 2000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SM002_0
+      name: 1PEyes_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 21
-        width: 51
-        height: 58
+        x: 843
+        y: 1077
+        width: 195
+        height: 273
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +117,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44d91315d3d1251a0800000000000000
-      internalID: -6822358336320463548
+      spriteID: a28f2e8e2e7d2dba0800000000000000
+      internalID: -6065548378544867286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1PEyes_1
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 1075
+        width: 195
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c148cf86fae56fc0800000000000000
+      internalID: -3502134790515572285
       vertices: []
       indices: 
       edges: []
@@ -131,7 +155,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SM002_0: -6822358336320463548
+      1PEyes_0: -6065548378544867286
+      1PEyes_1: -3502134790515572285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

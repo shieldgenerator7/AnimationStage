@@ -6,7 +6,6 @@ public class MoveTo : MonoBehaviour
 {
     public Transform target;
     public float speed = 1;
-    public bool playing = true;
 
     private Animator animator;
 
@@ -14,6 +13,17 @@ public class MoveTo : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+    }
+
+    private void OnEnable()
+    {
+        //update animator
+        animator?.SetBool("walking", enabled);
+    }
+    private void OnDisable()
+    {
+        //update animator
+        animator?.SetBool("walking", enabled);
     }
 
     // Update is called once per frame
@@ -24,13 +34,10 @@ public class MoveTo : MonoBehaviour
         transform.position += dir * speed * Time.deltaTime;
 
         //when arrived,
-        if (Vector3.Distance(transform.position, target.position) < 0.00001f)
+        if (Vector3.Distance(transform.position, target.position) < 0.01f)
         {
             //stop
-            playing = false;
+            enabled = false;
         }
-
-        //update animator
-        animator.SetBool("walking", playing);
     }
 }

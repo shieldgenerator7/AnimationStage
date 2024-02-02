@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 27a4a36166cf66941b66e35d0f8aec3b
+guid: 458c893c64243724ba3f9272bce27380
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6822358336320463548
-    second: SM002_0
+      213: 1625411959398250478
+    second: 1ShieldEye_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SM002_0
+      name: 1ShieldEye_0
       rect:
         serializedVersion: 2
-        x: 17
-        y: 21
-        width: 51
-        height: 58
+        x: 139
+        y: 276
+        width: 41
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44d91315d3d1251a0800000000000000
-      internalID: -6822358336320463548
+      spriteID: ee7ba95b09f9e8610800000000000000
+      internalID: 1625411959398250478
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SM002_0: -6822358336320463548
+      1ShieldEye_0: 1625411959398250478
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
