@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 1cf9e420c7966e44d9cae6ab695527a6
+guid: b4f253d3df4f0a343b041ec12e71de26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -678188870607972116
-    second: SW003_0
+      213: 3738969653687190135
+    second: DW Inside_0
+  - first:
+      213: 6620463515899076411
+    second: DW Inside_1
+  - first:
+      213: 1389451615420417009
+    second: DW Inside_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,9 +55,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 7
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SW003_0
+      name: DW Inside_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 73
-        width: 307
-        height: 355
+        x: 4932
+        y: 2234
+        width: 2025
+        height: 2952
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +120,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce8d9ccb0d69696f0800000000000000
-      internalID: -678188870607972116
+      spriteID: 7728df1171d73e330800000000000000
+      internalID: 3738969653687190135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DW Inside_1
+      rect:
+        serializedVersion: 2
+        x: 7151
+        y: 3960
+        width: 39
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f1991bd7c90eb50800000000000000
+      internalID: 6620463515899076411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DW Inside_2
+      rect:
+        serializedVersion: 2
+        x: 6422
+        y: 1765
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f30ab1f1e2584310800000000000000
+      internalID: 1389451615420417009
       vertices: []
       indices: 
       edges: []
@@ -131,7 +179,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SW003_0: -678188870607972116
+      DW Inside_0: 3738969653687190135
+      DW Inside_1: 6620463515899076411
+      DW Inside_2: 1389451615420417009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

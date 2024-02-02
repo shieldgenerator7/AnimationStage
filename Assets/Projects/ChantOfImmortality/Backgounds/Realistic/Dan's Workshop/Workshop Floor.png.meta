@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1cf9e420c7966e44d9cae6ab695527a6
+guid: 4e563546062a04e40b0118d855b42af7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -678188870607972116
-    second: SW003_0
+      213: 5636443120097938717
+    second: Workshop Floor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,9 +49,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 7
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SW003_0
+      name: Workshop Floor_0
       rect:
         serializedVersion: 2
-        x: 89
-        y: 73
-        width: 307
-        height: 355
+        x: 0
+        y: 0
+        width: 8889
+        height: 7111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce8d9ccb0d69696f0800000000000000
-      internalID: -678188870607972116
+      spriteID: d1dc122972ba83e40800000000000000
+      internalID: 5636443120097938717
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SW003_0: -678188870607972116
+      Workshop Floor_0: 5636443120097938717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
