@@ -145,7 +145,7 @@ PlayableDirector:
   m_GameObject: {fileID: 14464768}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 4d20159be58261b4b8817835ae698804, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: b9379fe8cc41bf14eafaa88a077367d0, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
@@ -155,6 +155,14 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 6710926516542328459, guid: 01011132031c59e4d8032f2a3fec3f6a, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 4265633396228004198, guid: 4d20159be58261b4b8817835ae698804, type: 2}
+    value: {fileID: 930725176}
+  - key: {fileID: 8124171990033097617, guid: 4d20159be58261b4b8817835ae698804, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -6965445706516994623, guid: 4d20159be58261b4b8817835ae698804, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3567991754298867418, guid: b9379fe8cc41bf14eafaa88a077367d0, type: 2}
+    value: {fileID: 930725176}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &14464770
@@ -617,6 +625,8 @@ GameObject:
   m_Component:
   - component: {fileID: 930725173}
   - component: {fileID: 930725174}
+  - component: {fileID: 930725175}
+  - component: {fileID: 930725176}
   m_Layer: 0
   m_Name: DW Door
   m_TagString: Untagged
@@ -632,8 +642,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 930725172}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9, y: 0.66, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.759, y: 1.377, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -693,6 +703,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &930725175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930725172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5346e16af1aee408a99f0d51ea7cd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1385391778}
+  speed: 1
+  playing: 1
+--- !u!95 &930725176
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930725172}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1073667022
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,6 +982,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1385391777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1385391778}
+  m_Layer: 0
+  m_Name: for_door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1385391778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385391777}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.9, y: 0.66, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1457889154}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1457889153
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +1049,7 @@ Transform:
   - {fileID: 229572625}
   - {fileID: 1885087785}
   - {fileID: 930725173}
+  - {fileID: 1385391778}
   m_Father: {fileID: 14464770}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551827348
