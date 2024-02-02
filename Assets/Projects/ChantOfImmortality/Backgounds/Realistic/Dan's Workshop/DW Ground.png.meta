@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: af70ff46096da3b41a26b2b909a77fdb
+guid: db2ddf3ceaeb8f144a5bb41319c069d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4587597619173248520
-    second: DW Door_0
+      213: 4167892507618030689
+    second: DW Ground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,8 +49,8 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.7534302, y: 0.67558515}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -100,22 +100,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DW Door_0
+      name: DW Ground_0
       rect:
         serializedVersion: 2
-        x: 5859
-        y: 2814
-        width: 1154
-        height: 2154
+        x: 0
+        y: 0
+        width: 8889
+        height: 7111
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80ecf3f7abb6aaf30800000000000000
-      internalID: 4587597619173248520
+      spriteID: 164b59a372457d930800000000000000
+      internalID: 4167892507618030689
       vertices: []
       indices: 
       edges: []
@@ -124,14 +124,14 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DW Door_0: 4587597619173248520
+      DW Ground_0: 4167892507618030689
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
