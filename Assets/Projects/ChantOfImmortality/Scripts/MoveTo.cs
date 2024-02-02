@@ -6,8 +6,6 @@ public class MoveTo : MonoBehaviour
 {
     public Transform target;
     public float speed = 1;
-    [SerializeField]
-    public bool playing = true;
 
     private Animator animator;
 
@@ -17,23 +15,29 @@ public class MoveTo : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+    private void OnEnable()
+    {
+        //update animator
+        animator?.SetBool("walking", enabled);
+    }
+    private void OnDisable()
+    {
+        //update animator
+        animator?.SetBool("walking", enabled);
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if (playing)
-        {
-            //move to target
-            Vector3 dir = (target.position - transform.position).normalized;
-            transform.position += dir * speed * Time.deltaTime;
+        //move to target
+        Vector3 dir = (target.position - transform.position).normalized;
+        transform.position += dir * speed * Time.deltaTime;
 
-            //when arrived,
-            if (Vector3.Distance(transform.position, target.position) < 0.01f)
-            {
-                //stop
-                playing = false;
-            }
+        //when arrived,
+        if (Vector3.Distance(transform.position, target.position) < 0.01f)
+        {
+            //stop
+            enabled = false;
         }
-        //update animator
-        animator?.SetBool("walking", playing);
     }
 }
