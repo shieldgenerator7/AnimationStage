@@ -147,7 +147,7 @@ MonoBehaviour:
       m_Leaf: Recordings
       m_ForceAssetFolder: 0
       m_AbsolutePath: 
-    m_FileName: COI_SCENE_Garage_<Take>
+    m_FileName: COI_SCENE_Searching_<Take>
   m_Version: 1
   encoderSettings:
     rid: 5290157325583908978
