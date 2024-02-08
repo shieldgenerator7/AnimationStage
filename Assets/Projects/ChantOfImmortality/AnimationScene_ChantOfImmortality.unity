@@ -899,8 +899,8 @@ Transform:
   m_GameObject: {fileID: 80192678}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.633, y: -0.249, z: 0}
-  m_LocalScale: {x: 0.45432097, y: 0.45432097, z: 0.45432097}
+  m_LocalPosition: {x: 0.628, y: -0.249, z: 0}
+  m_LocalScale: {x: 0.454321, y: 0.454321, z: 0.454321}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 852779629}
@@ -1474,9 +1474,9 @@ Transform:
   m_GameObject: {fileID: 122832115}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.296, y: -0.274, z: 0}
+  m_LocalPosition: {x: 0.024, y: -0.274, z: 0}
   m_LocalScale: {x: 0.454321, y: 0.454321, z: 0.454321}
-  m_ConstrainProportionsScale: 1
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1752453799}
   - {fileID: 1736225705}
@@ -5237,6 +5237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 725748249}
+  - component: {fileID: 725748250}
   m_Layer: 0
   m_Name: Ponies
   m_TagString: Untagged
@@ -5261,6 +5262,28 @@ Transform:
   - {fileID: 122832116}
   m_Father: {fileID: 2062136669}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &725748250
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725748248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &758514971
 GameObject:
   m_ObjectHideFlags: 0
@@ -18695,6 +18718,8 @@ PlayableDirector:
     value: {fileID: 0}
   - key: {fileID: 3365458355086072028, guid: 716a19a4ce1e44a4092833284c0b854b, type: 2}
     value: {fileID: 0}
+  - key: {fileID: -4398412912665585468, guid: 1fef3ebb732c61b4db1aa04004281d5f, type: 2}
+    value: {fileID: 725748250}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &2062136669
