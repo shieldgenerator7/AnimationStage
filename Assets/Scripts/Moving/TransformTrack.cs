@@ -8,8 +8,8 @@ using UnityEngine.Timeline;
 [TrackBindingType(typeof(Transform))]
 public class TransformTrack : TrackAsset
 {
-    public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)
-    {
-        return ScriptPlayable<RotatorMixerPB>.Create(graph, inputCount);
-    }
+    //public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)
+    //{
+    //    return ScriptPlayable<RotatorMixerPB>.Create(graph, inputCount);
+    //}
 }
