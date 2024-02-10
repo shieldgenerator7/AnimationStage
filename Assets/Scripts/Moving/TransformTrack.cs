@@ -5,6 +5,7 @@ using UnityEngine.Playables;
 using UnityEngine.Timeline;
 
 [TrackClipType(typeof(RotatorPA))]
+[TrackClipType(typeof(MoverPA))]
 [TrackBindingType(typeof(Transform))]
 public class TransformTrack : TrackAsset
 {

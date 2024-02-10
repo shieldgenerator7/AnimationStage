@@ -8,6 +8,7 @@ using UnityEngine.Timeline;
 [Serializable]
 public class RotatorPA : PlayableAsset, IPropertyPreview
 {
+    [SerializeField]
     public RotatorPB template;
 
     public override Playable CreatePlayable(PlayableGraph graph, GameObject owner)
